@@ -29,5 +29,9 @@ namespace Test_my_Interfaces
             Thread.Sleep(3000);
             Console.WriteLine("Charged!");
         }
+        //public string GetRobotType()
+        //{
+        //    return "I am ... BATMAN";
+        //}
     }
 }

@@ -6,7 +6,7 @@
         {
             Quadcopter q1 = new Quadcopter();
             Console.WriteLine(q1.GetInfo());
-            //Console.WriteLine(q1.GetRobotType());     у класса не реализовано и выдает ошибки
+            Console.WriteLine(q1.GetRobotType()); 
             IChargeable q2 = new Quadcopter();
             q2.Charge();
             Console.WriteLine(q2.GetInfo());
